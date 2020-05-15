@@ -7,7 +7,7 @@ class Config:
     API_HASH = os.environ.get('725797d62aca2512897545f93ce91f00')
     BOT_TOKEN = os.environ.get('826251513:AAFjJvHqVMYYOU6DAs1FoR36Nw1TVtL7udc')
     SESSION_NAME = os.environ.get('@rokulu_bot')
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL'))
+    LOG_CHANNEL = int(os.environ.get('-34643225798'))
     DATABASE_URL = os.environ.get('DATABASE_URL')
     AUTH_USERS = [int(i) for i in os.environ.get('AUTH_USERS', '').split(' ')]
     MAX_PROCESSES_PER_USER = int(os.environ.get('MAX_PROCESSES_PER_USER', 2))
